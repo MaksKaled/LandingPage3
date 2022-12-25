@@ -28,7 +28,7 @@ body{
 .header{
   width: 100%;
   height: 448px;
-  background-image: url(/optimizedPics/home-bg.png);
+  background-image: url('../optimizedPics/home-bg.png');
   
 
 }
@@ -49,12 +49,7 @@ body{
   width: 100%;
     background: rgb(215, 42, 42);
 }
-.menu-navigator{
-  text-decoration: none;
-}
-.buttons{
-  text-decoration: none;
-}
+
 .header-nav-link{
   text-decoration: none;
 }
