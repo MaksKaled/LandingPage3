@@ -54,9 +54,16 @@ body{
 .header-nav-link{
   text-decoration: none;
   color: black;
-  
-
+  transition: 200ms;
 }
+.header-nav-link:hover{
+  color: rgba(118, 205, 216, 1);
+  padding-bottom: 6px; /*расстояние между ссылкой и подчеркиванием*/
+  border-bottom: 1.5px solid  rgba(118, 205, 216, 1);
+  /* text-transform: capitalize; */
+}
+
+
 
 .header-logo{
   display: flex;
@@ -75,8 +82,36 @@ body{
 }
 .header-navigation li{
   padding: 21px 20px;
+}
+h1{
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 18px;
+}
 
+.middleP{
+  text-align: center;
   
 }
 
 
+.links {
+  text-align: center;
+  margin-top: 50px;
+}
+.links a{
+  color: rgba(118, 205, 216, 1); 
+  text-decoration: none;
+  background-color: none;
+  padding: 8px 16px;
+  border: 2px solid rgba(118, 205, 216, 1);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 400ms;
+}
+.links a:hover{
+  background-color: rgba(118, 205, 216, 1);
+  color:white;
+}
