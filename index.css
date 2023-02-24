@@ -31,6 +31,7 @@ body{
   background-image: url('optimizedPics/home-bg.png');
   margin: 0 auto;
   align-items: center;
+  margin-bottom: 72px;
 
 }
 
@@ -46,10 +47,7 @@ body{
   
     
 }
-.firstPart{
-  width: 100%;
-    background: rgb(215, 42, 42);
-}
+
 
 .header-nav-link{
   text-decoration: none;
@@ -114,4 +112,12 @@ h1{
 .links a:hover{
   background-color: rgba(118, 205, 216, 1);
   color:white;
+}
+
+.firstPart{
+  display: grid;
+
+  width: 100%;
+    
+    margin-bottom: 16px;
 }
