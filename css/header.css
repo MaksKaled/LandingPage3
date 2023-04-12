@@ -5,12 +5,13 @@
   background-image: url(/optimizedPics/home-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 112px;
+  
 }
 
 .wrapper {
   max-width: 1240px;
   margin: 0 auto;
+  padding-bottom: 112px;
 }
 
 .logoMenu {
@@ -91,10 +92,3 @@ h1 {
   color: white;
 }
 
-.firstPart {
-  display: grid;
-
-  width: 100%;
-
-  margin-bottom: 16px;
-}
