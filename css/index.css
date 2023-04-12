@@ -32,9 +32,10 @@ body{
 
 
 .header{
-  background-image: url(./optimizedPics/home-bg.png);
+  background-image: url(/optimizedPics/home-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 112px;
 }
 
 .wrapper{
@@ -98,6 +99,7 @@ h1{
 .links {
   text-align: center;
   margin-top: 50px;
+  
 }
 
 .links a{
@@ -123,6 +125,13 @@ h1{
   width: 100%;
     
     margin-bottom: 16px;
+}
+
+/* footer */
+
+
+footer{
+  background-color: #1A2B3B;
 }
 
 
