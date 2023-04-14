@@ -4,22 +4,87 @@
 .firstPart{
     display: flex;
     padding-top: 72px;
+    padding-bottom: 16px;
 }
 
 .firstPart .pics{
     display: grid;
-    
+    grid-template-rows: repeat(5,1fr);
     position: relative;
+    padding-bottom: 104px;
+    margin-right: 72px;
+    
+    
 }
 .pics .bottom__pic{
-    
+    grid-row-start: 1;
+    grid-row-end: 6;
    
 
 }
 
-.pics .top__pic{
+.pics .top__pic__titles   {
     position: absolute;
-    
+   grid-row-start: 3;
+   left:40%;
+   top: 5%;
+  
 }
 
+.topPic__titles__wrapper{
+    padding: 40px;
+    background-color: white;
+    box-shadow:0 0 12px 0;
+    box-shadow:;
+}
+
+.topPic__titles__wrapper img{
+    padding-bottom: 20px;
+}
+.topPic__titles__wrapper .procents{
+    color: #0A2640;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+.topPic__titles__wrapper .income{
+    color: #0A2640;
+    font-size: 14px;
+
+}
+
+.titles__advantages{
+    padding-top: 125px;
+    
+}
+.titles__advantages h2{
+    font-size: 36px;
+    letter-spacing: 3.2%;
+    line-height: 150%;
+    padding-bottom: 48px;
+    color: #1F1F1F;
+}
+.titles__advantages ul li{
+    font-size: 20px;
+    line-height: 120%;
+    color: #1F1F1F;
+    padding-bottom: 22px;
+    position: relative;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+   
+}
+.titles__advantages ul{
+    display: flex;
+    flex-direction: column;
+}
+.titles__advantages ul li::before{
+    position: absolute;
+    content: url(/optimizedPics/ul__advantage__icon.svg);
+    width: auto;
+    height: auto;
+    left: 0;
+    
+}
   
