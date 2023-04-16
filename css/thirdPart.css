@@ -1,0 +1,44 @@
+.thirdPart{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.metodicsExamples{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.thirdPart h2{
+    text-align: center;
+    color: #1F1F1F;
+    font-size: 32px;
+    font-weight:600;
+    padding-bottom: 38px;
+}
+
+ .picTitle h3{
+    padding-top: 18px;
+    padding-bottom: 12px;
+    padding-left:16px ;
+    font-size: 18px;
+    color: #1F1F1F;
+    font-weight: 550;
+}
+.picTitle p{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+}
+.picTitle{
+    background-color: aqua;
+    border: 5px solid red;
+    height: fit-content;
+}
+
+
+

@@ -34,8 +34,7 @@
 .topPic__titles__wrapper{
     padding: 40px;
     background-color: white;
-    box-shadow:0 0 12px 0;
-    box-shadow:;
+    box-shadow: 0 0 4px rgb(226, 225, 225);
 }
 
 .topPic__titles__wrapper img{

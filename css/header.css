@@ -10,9 +10,9 @@
 
 .wrapper {
   max-width: 1240px;
-  margin: 0 auto;
-  margin-left: 10%;
+   margin-left: 10%;
   margin-right: 10%;
+  margin: 0 auto;
   padding-bottom: 112px;
 }
 
