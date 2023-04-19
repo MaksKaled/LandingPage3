@@ -1,0 +1,41 @@
+.seventhPart__wrapper{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.seventhPart{
+    background-image: url(/optimizedPics/bg.png);
+    background-size: cover;
+    height: 300px;
+}
+.seventhPart .advantages .element ,span{
+    color: #FFFFFF;
+}
+.seventhPart .advantages .element p{
+    color: #FFFFFF;
+}
+
+.seventhPart .advantages{
+    display: flex;
+    padding: 114px 100px;
+    gap: 12%;
+}
+.seventhPart .advantages .element{
+    display: flex;
+}
+.seventhPart .advantages .element .title{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+.seventhPart .advantages .element .title span{
+    font-size: 28px;
+    font-weight: bold;
+}
+.seventhPart .advantages .element .title p{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 215px;
+}
+
+

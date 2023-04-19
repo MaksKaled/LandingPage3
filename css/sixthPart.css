@@ -1,0 +1,55 @@
+.wrapper__sixthPart{
+    background-color: #f5f6f8;
+    
+    padding: 72px 100px;
+}
+
+.wrapper__sixthPart .sixthPart{
+    display: flex;
+    background-color: #fff;
+    padding: 16px;
+    gap: 16px;
+}
+.sixthPart .titles{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 120px 24px;
+    
+}
+.sixthPart .titles .picAndParagraph{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.sixthPart .titles .picAndParagraph .pic{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.sixthPart .titles .picAndParagraph img{
+    padding: 17px;
+    background-color: #fdfef8;
+    box-shadow: 0 0 10px rgba(217, 214, 214, 0.5);
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.sixthPart .titles .picAndParagraph .title__Paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sixthPart .titles .picAndParagraph .title__Paragraph h3{
+    
+    font-size: 24px;
+    font-weight: 500;
+    
+    color: #1F1F1F;
+}
+
+.sixthPart .titles .picAndParagraph .title__Paragraph p{
+    line-height: 150%;
+    font-size: 14px;
+    
+    
+}

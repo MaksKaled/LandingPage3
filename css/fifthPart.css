@@ -1,0 +1,38 @@
+.fifthPart{
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 16px;
+}
+.fifthPart .title{
+    padding: 10px;
+}
+.fifthPart .img5thPart{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.fifthPart .title span{
+    font-size: 16px;
+    line-height: 120%;
+    padding-bottom: 6px;
+}
+.fifthPart .title h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-bottom: 6px;
+}
+.fifthPart .title p{
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 36px;
+}
+.fifthPart .title ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.fifthPart .title ul li::before{
+    content: url(/optimizedPics/check.svg);
+    padding-right: 16px;
+}
