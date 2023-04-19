@@ -1,0 +1,30 @@
+.fourthPart__wrapper{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: max-content;
+   
+}
+
+.fourthPart{
+    background-color: #1A2B3B;
+
+}
+.fourthPart{
+    display: flex;
+    justify-content: center;
+}
+.fourthPart .img4thPart img{
+    object-fit: cover;
+    
+}
+.fourthPart .img4thPart{
+    width: 50%;
+}
+.fourthPart .title ul li p{
+    color: white;
+    padding-left: 58px;
+}
+.fourthPart .title ul{
+    list-style-type:disc;
+    color: aliceblue;
+}

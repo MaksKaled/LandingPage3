@@ -4,7 +4,7 @@
 }
 .metodicsExamples{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     column-gap: 15px;
     justify-content: center;
     padding-left: 5px;
@@ -35,10 +35,24 @@
     font-weight: 300;
 }
 .picTitle{
-    background-color: aqua;
-    border: 5px solid red;
     height: fit-content;
 }
+.picTitle:hover{
+    border-radius: 5px;
+    border: 3px solid #67b3bc;
+    
+   
+}
+
+.metodicsExamples .picTitle img{
+    width: 100%;
+    height: auto;
+}
+.metodicsExamples .titlesMetodics{
+    max-width: 371px;
+}
+
+
 
 
 
