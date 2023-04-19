@@ -3,7 +3,7 @@
     padding-bottom: 72px;
 }
 .seventhPart{
-    background-image: url(/optimizedPics/bg.png);
+    background-image: url(../optimizedPics/bg.png);
     background-size: cover;
     height: 300px;
 }

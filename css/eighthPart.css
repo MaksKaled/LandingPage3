@@ -43,6 +43,6 @@
     color: #1F1F1F;
 }
 .eighthPart .booksPart .bookElement .title__address p::before{
-    content: url(/optimizedPics/icon_location.svg);
+    content: url(../optimizedPics/icon_location.svg);
     padding-right: 4px;
 }

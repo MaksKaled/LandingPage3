@@ -80,7 +80,7 @@
 }
 .titles__advantages ul li::before{
     position: absolute;
-    content: url(/optimizedPics/ul__advantage__icon.svg);
+    content: url(../optimizedPics/ul__advantage__icon.svg);
     width: auto;
     height: auto;
     left: 0;
