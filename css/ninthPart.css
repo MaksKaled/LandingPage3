@@ -23,7 +23,7 @@
     border-style:solid;
     border-radius: 5px;
     max-width: 298px;
-    height: fit-content;
+    height: auto;
 }
 .ninethPart .advantages .advantageElement .img__advantage{
     padding-top: 16px;

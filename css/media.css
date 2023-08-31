@@ -1,0 +1,137 @@
+@media(max-width:1280px){
+    body{
+    
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+.firstPart{
+    flex-direction: column-reverse;
+}
+.secondPart{
+    flex-direction: column-reverse;
+}
+.ninethPart{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.seventhPart .advantages {
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    row-gap: 5%;
+}
+.seventhPart{
+    height: auto;
+}
+.wrapper__sixthPart .sixthPart{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.sixthPart img{
+    max-width: 100%;
+    height: auto;
+}
+.ninethPart .advantages{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ninethPart .advantages .advantageElement{
+    margin-bottom: 3%;
+    height: auto;
+}
+.booksPart{
+    flex-direction: column;
+    align-items: center;
+}
+.bookElement{
+    max-width: fit-content;
+}
+.seventhPart .advantages .element{
+    max-width:240px;
+    padding-bottom: 5%;
+
+}
+.advantagesAgain{
+    padding: 15% 10% 0 10%;
+}
+.advantagesAgain ul{
+    align-items:center ;  
+}
+.pics .bottom__pic {
+    margin: 0 auto;
+}
+.pictures__wrapper{
+    margin: 0 auto;
+}
+
+.WomanGraph{
+    margin: 0 auto;
+}
+.womanSecondPart{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper__sixthPart{
+    padding: 15% 10%;
+}
+.img__advantage img{
+    max-width: 100%;
+    height: auto;
+}
+.pics .bottom__pic img{
+    max-width: 100%;
+    height: auto;
+}
+.fifthPart{
+    flex-direction: column;
+    margin: 0 5%;
+}
+.fifthPart .img5thPart {
+    padding: 0;
+}
+.fifthPart .img5thPart img{
+    max-width: 100%;
+    height: auto;
+}
+.fifthPart .title h2{
+    line-height: 1.1em;
+    padding-bottom: 5%;
+}
+
+}
+
+@media(max-width:430px){
+    .sixthPart .titles .picAndParagraph{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+}
+@media(max-width:1031px){
+    footer .upperElements{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        gap: 2em;
+        
+    }
+    footer .upperElements .logoTitle {
+        justify-content: center;
+    }
+    footer .upperElements .contacs {
+        margin: 0 auto;
+    }
+    footer .upperElements .arrow{
+        display: none;
+    }
+    .pictures__wrapper .graph__advantages{
+        max-width: fit-content;
+        position: relative;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+    }
+}
