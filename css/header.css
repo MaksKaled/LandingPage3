@@ -19,14 +19,50 @@
   padding-bottom: 112px;
 }
 
-.logoMenu {
+.logoMenu{
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 103px;
   display: flex;
   justify-content: space-between;
 }
+.header__burger__btn{
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
 
+}
+.header__burger__btn span{
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(53, 76, 171);
+  left: 5px;
+  top: 18.5px;
+  transition: transform .5s,opacity .5s,background-color .5s;
+}
+.header__burger__btn span:nth-child(1){
+  transform: translateY(10px);
+}
+.header__burger__btn span:nth-child(3){
+  transform: translateY(-10px);
+}
+ .logoMenu.open .header__burger__btn span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+  
+}
+.logoMenu.open .header__burger__btn span:nth-child(2){
+  opacity: 0;
+}
+.logoMenu.open .header__burger__btn span:nth-child(3){
+  transform: translateY(0) rotate(135deg);
+} 
+.logoMenu.open .header__burger__btn span{
+ background-color: rgb(86, 160, 225);
+}
 .header-nav-link {
   text-decoration: none;
   color: black;
