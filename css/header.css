@@ -39,7 +39,7 @@
   position: absolute;
   width: 30px;
   height: 3px;
-  background-color: rgb(53, 76, 171);
+  background-color: rgb(1, 1, 1);
   left: 5px;
   top: 18.5px;
   transition: transform .5s,opacity .5s,background-color .5s;
