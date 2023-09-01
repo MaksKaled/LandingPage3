@@ -1,0 +1,52 @@
+.fourthPart__wrapper{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: max-content;
+   
+}
+
+.fourthPart{
+    background-color: #1A2B3B;
+
+}
+.fourthPart{
+    display: flex;
+    justify-content: center;
+}
+.fourthPart .title{
+    width: 50%;
+    padding: 175px 58px;
+}
+.fourthPart .title h2{
+    color: white;
+}
+.fourthPart .title h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.15em;
+    padding-bottom: 24px;
+}
+
+.fourthPart .title ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+
+.fourthPart .img4thPart{
+    width: 50%;
+}
+.fourthPart .img4thPart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.fourthPart .title ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

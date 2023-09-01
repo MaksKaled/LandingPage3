@@ -1,0 +1,113 @@
+.secondPart{
+    display: flex;
+    padding-bottom: 9%;
+}
+.advantagesAgain{
+    padding-right: 72px;
+    padding-top: 120px;
+}
+.advantagesAgain h2{
+    padding-bottom: 48px;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 3.2%;
+    color: #1F1F1F;
+}
+
+.advantagesAgain  .li__first__child{
+ background-color: #1A2B3B;
+ color: #FFFFFF;
+}
+
+.advantagesAgain ul{
+    display: flex;
+    flex-direction: column;
+}
+.advantagesAgain ul li{
+    padding:  16px 32px;margin-bottom: 32px;
+    max-width: 491px;
+    width: 491px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.advantagesAgain .li__second__child,.li__third__child{
+    box-shadow: 0 0 8px #ebe7e7;
+}
+.advantagesAgain .li__first__child,.li__second__child,.li__third__child{
+    display: flex;
+    align-items: center;
+}
+.advantagesAgain ul li img{
+    padding-right: 18px;
+}
+
+
+
+.pictures__wrapper{
+    position: relative;
+    
+}
+
+.pictures__wrapper .graph__advantages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    background-color: #FFFFFF;
+    padding: 48px 40px;
+    box-shadow: 0 0 4px rgb(226, 225, 225);
+}
+
+.graph__advantages .graph__pic{
+    padding-bottom: 24px;
+}
+.graph__advantages ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.graph__advantages ul li{
+    color: #1F1F1F;
+    font-size: 14px;
+}
+
+
+
+
+.graph__advantages ul .first::before{
+    content: '•';
+    color: #0DBBFC;
+    font-weight: bolder;
+    font-size: larger;
+    padding-right:8px ;
+    
+}
+.graph__advantages ul .second::before{
+    content: '•';
+    color: #69E6A6;
+    font-weight: bolder;
+    font-size: larger;
+    padding-right:8px ;
+    
+}
+.graph__advantages ul .third::before{
+    content: '•';
+    color: #C4C4C4;
+    font-weight: bolder;
+    font-size: larger;
+    padding-right:8px ;
+    
+}
+.secondPart .li__title{
+    color:#1F1F1F
+}
+.secondPart  .whiteOne{
+    color: white;
+}
+
+
+

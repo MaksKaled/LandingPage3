@@ -1,0 +1,48 @@
+.eighthPart .title__h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 38px;
+    text-align: center;
+}
+.bookElement{
+    height: fit-content;
+}
+.booksPart{
+    display: flex;
+    gap: 16px;
+}
+.bookElement{
+    box-shadow: 0 0 3px lightgray;
+    border-radius: 5px;
+
+}
+.bookElement .eighthPart__img{
+    max-height: 571px;
+}
+.bookElement .eighthPart__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+.bookElement .title__address{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 32px;
+}
+.eighthPart .booksPart .bookElement .title__address h2{
+    padding-bottom: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #76CDD8;
+}
+.eighthPart .booksPart .bookElement .title__address p{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1F1F1F;
+}
+.eighthPart .booksPart .bookElement .title__address p::before{
+    content: url(../optimizedPics/icon_location.svg);
+    padding-right: 4px;
+}

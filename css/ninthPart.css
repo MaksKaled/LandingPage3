@@ -1,0 +1,56 @@
+.wrapper.ninethPart__wrapper{
+    overflow: visible;
+}
+.ninethPart{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.ninethPart h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-bottom: 66px;
+}
+.ninethPart .advantages{
+    display: flex;
+    gap:2%;
+}
+.ninethPart .advantages .advantageElement{
+    position: relative;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 5px;
+    max-width: 298px;
+    height: auto;
+}
+.ninethPart .advantages .advantageElement .img__advantage{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.ninethPart .advantages .advantageElement p{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+.cornerNumber1,.cornerNumber2,.cornerNumber3,.cornerNumber4{
+    position: absolute;
+    top: -6%;
+    right: -5.5%;
+    padding: 9px 13px;
+    z-index: 2;
+    opacity: 70%;
+    background-color: #C9DB48;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+

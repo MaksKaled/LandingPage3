@@ -1,0 +1,89 @@
+/* footer */
+
+
+footer {
+  background-color: #1A2B3B;
+}
+footer p,li{
+  color: white;
+}
+
+footer .upperElements{
+  padding-top: 75px;
+  padding-bottom: 25px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+footer .upperElements ::after{
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #273747;
+}
+
+footer .upperElements .logoTitle{
+  display: flex;
+  align-items: center;
+  height: fit-content;
+
+}
+footer .upperElements .logoTitle img{ 
+  max-width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  
+}
+
+footer .upperElements .contacs{
+   max-width: 350px; 
+  
+}
+footer .upperElements .contacs .address{
+  padding-bottom: 18px;
+}
+footer .upperElements .contacs .email{
+  padding-bottom: 8px;
+}
+footer .upperElements .sources ul{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+footer .upperElements .socialNetworks ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+  footer .upperElements .arrow{
+    color: white;
+    font-size: 40px;
+    background-color: #C9DB48;
+    height: fit-content;
+    padding: 8px 18px;
+    border-radius: 40px;
+  }
+
+footer .bottomElements{
+  padding-top: 32px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .bottomElements .ByLogo{
+  display: flex;
+  align-items: center;
+}
+footer .bottomElements .ByLogo span{
+  padding-right: 24px;
+  font-size: 16px;
+}
+footer .bottomElements .copyrightRights{
+  font-size: 16px;
+
+}

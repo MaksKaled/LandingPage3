@@ -1,0 +1,136 @@
+/* header */
+
+
+.header {
+  background-image: url(../optimizedPics/home-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.wrapper {
+  max-width: 1240px;
+   margin-left: 10%;
+  margin-right: 10%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.wrapper__header{
+  padding-bottom: 112px;
+}
+
+.logoMenu{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 103px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__burger__btn{
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+
+}
+.header__burger__btn span{
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(1, 1, 1);
+  left: 5px;
+  top: 18.5px;
+  transition: transform .5s,opacity .5s,background-color .5s;
+}
+.header__burger__btn span:nth-child(1){
+  transform: translateY(10px);
+}
+.header__burger__btn span:nth-child(3){
+  transform: translateY(-10px);
+}
+ .logoMenu.open .header__burger__btn span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+  
+}
+.logoMenu.open .header__burger__btn span:nth-child(2){
+  opacity: 0;
+}
+.logoMenu.open .header__burger__btn span:nth-child(3){
+  transform: translateY(0) rotate(135deg);
+} 
+.logoMenu.open .header__burger__btn span{
+ background-color: rgb(86, 160, 225);
+}
+.header-nav-link {
+  text-decoration: none;
+  color: black;
+  transition: 200ms;
+}
+
+.header-nav-link:hover {
+  color: rgba(118, 205, 216, 1);
+  padding-bottom: 6px;
+  /*расстояние между ссылкой и подчеркиванием*/
+  border-bottom: 1.5px solid rgba(118, 205, 216, 1);
+  /* text-transform: capitalize; */
+}
+
+.header-logo {
+  display: flex;
+  gap: 6px;
+  width: 140px;
+  height: 36px;
+  font-size: 12px;
+  margin-top: 14px;
+  margin-left: 100px;
+}
+
+.header-navigation {
+  display: flex;
+
+  font-size: 14px;
+
+}
+
+.header-navigation li {
+  padding: 21px 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.middleP {
+  text-align: center;
+  
+
+}
+
+.links {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.links a {
+  color: rgba(118, 205, 216, 1);
+  text-decoration: none;
+  background-color: none;
+  padding: 8px 16px;
+  border: 2px solid rgba(118, 205, 216, 1);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 400ms;
+}
+
+.links a:hover {
+  background-color: rgba(118, 205, 216, 1);
+  color: white;
+}
+
