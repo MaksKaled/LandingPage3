@@ -9,6 +9,7 @@
 }
 .secondPart{
     flex-direction: column-reverse;
+    
 }
 .ninethPart{
     margin-left: 5%;
@@ -55,12 +56,19 @@
 }
 .advantagesAgain{
     padding: 15% 10% 0 10%;
+    margin-top: 15vh;
 }
 .advantagesAgain ul{
     align-items:center ;  
 }
 .pics .bottom__pic {
     margin: 0 auto;
+    position: relative;
+}
+.pics .top__pic__titles {
+    position: absolute;
+    top: 40%;
+    left: 11%;
 }
 .pictures__wrapper{
     margin: 0 auto;
@@ -72,6 +80,7 @@
 .womanSecondPart{
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 .wrapper__sixthPart{
     padding: 15% 10%;
@@ -83,6 +92,7 @@
 .pics .bottom__pic img{
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 .fifthPart{
     flex-direction: column;
@@ -99,6 +109,27 @@
     line-height: 1.1em;
     padding-bottom: 5%;
 }
+.firstPart .pics{
+    margin-right: 0;
+    margin-bottom: 10%;
+    display:flex;
+}
+.graph__advantages .graph__pic img{
+max-width: 100%;
+height: auto;
+}
+.graph__advantages .graph__pic{
+    max-width: 100%;
+    height: auto;
+}
+
+.pictures__wrapper .graph__advantages {
+    padding: 5% ;
+}
+.titles__advantages{
+    margin: 0 5%;
+    padding-top: 5%;
+}
 
 }
 
@@ -107,7 +138,10 @@
         flex-direction: column;
         text-align: center;
     }
-    
+    .titles__advantages h2{
+        font-size: 28px;
+        text-align: center;
+    }
     
 }
 @media(max-width:1031px){
@@ -129,9 +163,47 @@
     }
     .pictures__wrapper .graph__advantages{
         max-width: fit-content;
-        position: relative;
+        position: absolute;
+        
+        top: 60%;
+        left: 11%;
+    }
+}
+@media(max-width:800px){
+    .fourthPart {
+        flex-direction: column;
+    }
+    .fourthPart .title{
+        width: fit-content;
+        padding: 40px;
+    }
+    .fourthPart .img4thPart{
         margin: 0 auto;
-        top: 0;
-        left: 0;
+    }
+    .fourthPart .img4thPart img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:550px){
+    .advantagesAgain ul li{
+        width: fit-content;
+    }
+    .advantagesAgain h2{
+        line-height: 1.2em;
+        text-align: center;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    .ninethPart h2{
+        word-break: break-word;
+    }
+    .advantagesAgain{
+        margin-top: 10em;
+    }
+}
+@media(max-width:460px){
+    .secondPart{
+        margin-top: 31vw;
     }
 }
